@@ -1,0 +1,78 @@
+@font-face
+{
+	font-family: card-font;
+	src:url(../font/Sora.ttf);
+}
+*
+{
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: card-font;
+}
+body
+{
+	background-color: #FAFAF9;
+}
+.card
+{
+	position: relative;
+	top:164px;
+	
+}
+.container
+{
+	margin:auto;
+	background-color: #FFFFFF;
+	width:368px;
+	box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+	border-radius: 16px;
+}
+.card_img
+{
+	width: 336px;
+	height: 152px;
+	border-radius: 16px;
+	margin: 16px 16px;
+}
+.tag
+{
+	display: inline-block;
+	margin: 0px 16px;
+	padding: 6px 16px;
+	background-color: #E6D6FC;
+	border-radius: 20px;
+	font-size: 10px;
+	font-weight: bold;
+	color:#883AE1;
+}
+.title
+{
+	font-size: 18px;
+	color: #20293A;
+	font-weight: 600;
+	margin: 16px 16px;
+}
+.body
+{
+	font-size: 14px;
+	color: #6C727F;
+	margin: 6px 16px;
+	line-height: 1.3rem;
+	font-weight: 200;
+}
+.card_hr
+{
+	height: 1px;
+	border: none;
+	background-color: #6C727F80;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+.small-text
+{
+	font-size: 12px;
+	color:#6C727F;
+	padding: 16px 20px;
+	font-weight: 300;
+}
